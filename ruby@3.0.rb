@@ -18,7 +18,7 @@ class RubyAT30 < Formula
 
   keg_only :versioned_formula
 
-  disable! date: "2025-04-23", because: :unmaintained
+  # disable! date: "2025-04-23", because: :unmaintained
 
   depends_on "pkgconf" => :build
   depends_on "libyaml"
